@@ -1,6 +1,7 @@
 function clickBoton(texto){
     const elementoResultado= document.getElementById('resultado')
     const textoViejo= elementoResultado.value
+    
     elementoResultado.value= textoViejo + texto
 }
     function clickMas(){
